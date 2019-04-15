@@ -1,1 +1,0 @@
-java -jar selenium-server-standalone-3.141.59.jar -role node -nodeConfig config.json -hub http://10.128.224.50:4444/grid/register/
