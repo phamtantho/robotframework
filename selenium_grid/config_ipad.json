@@ -1,0 +1,24 @@
+{
+	"capabilities": [
+		{
+			"browserName": "safari",
+			"version": "12.1.4",
+			"maxInstances": 2,
+			"platform": "IOS",
+			"udid": "0ca19e51e0bc1e024bd106a9c3d1a415133eee6e"
+		}
+	],
+	"configuration": {
+		"cleanUpCycle": 2000,
+		"timeout": 30000,
+		"proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+		"url": "http://localhost:4729/wd/hub",
+		"maxSession": 1,
+		"port": "4728",
+		"host": "localhost",
+		"register": true,
+		"registerCycle": 5000,
+		"hubPort": "4444",
+		"hubHost": "10.102.1.115"
+	}
+}

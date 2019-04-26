@@ -1,0 +1,1 @@
+appium --address 127.0.0.1 --port 4728 -bp 8189 --nodeconfig config_ipad.json --session-override &
